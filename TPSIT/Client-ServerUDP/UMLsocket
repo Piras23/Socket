@@ -1,0 +1,16 @@
+____________________________________________________
+|SOCKETUDP 										    |
+|___________________________________________________|
+|properties:										|
+|-sock_id:int 										|
+|___________________________________________________|
+|methods:											|
+|+SocketUDP()										|
+|+SocketUDP(port:int)								|
+|+~SOCKETUDP()										|
+|+invia(dest:Address,msg:String):boolean			|
+|+ricevi(mitt:Address out):String					|	out indica per referenza
+|+inviaRaw(dest:Address,msg:ptr,lenght:int):boolean |
+|+riceviRaw(mitt:Address out,lenght:int out):ptr    |
+|+broadcast(state:boolean):boolean					|
+|___________________________________________________|

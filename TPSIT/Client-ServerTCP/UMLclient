@@ -1,0 +1,16 @@
+_______________________________________										API
+|CLIENTTCP							   |										Socket(),Close(),bind(),connect(),send(),recv()
+|______________________________________|
+|properties:						   |
+|-sock_id:int						   |
+|______________________________________|
+|methods:							   |
+|+ClientTCP()						   |
+|+~ClientTCP()						   |
+|+connetti(server:Address):boolean	   |
+|+invia(msg:String):boolean			   |
+|+ricevi():String					   |
+|+inviaRaw(msg:ptr,lenght:int):boolean |
+|+riceviRaw(lenght:int out):ptr        |
+|+broadcast(status:boolean):boolean	   |
+|______________________________________|
